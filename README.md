@@ -1,2 +1,2 @@
-# lanparty.github.io
+# LANParty.github.io
 LANParty Event Website ;-)
