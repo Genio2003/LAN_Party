@@ -1,2 +1,2 @@
-[![LANParty-Logo.gif](https://i.postimg.cc/WzcLYpGF/LANParty-Logo.gif)](https://postimg.cc/62cmyX1t)
+[![LANParty-Logo.gif](https://i.postimg.cc/WzcLYpGF/LANParty-Logo.gif)](LANParty_Event_Logo)
 ---
