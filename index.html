@@ -14,7 +14,7 @@
 		ul li a {display: block; text-decoration: none; font-size: 20px; font-family: arial; color: white; padding: 0 20px;}
 		ul li a:hover {color: black; background-image: url(LANParty_Files/Other_Images/Flame2.gif); background-size: auto; background-position: center; border-radius: 15px;}
 		main {color: red; font-family: 'Source Code Pro', monospace; font-size: 18px;}
-		footer {color: red; font-family: 'Source Code Pro', monospace; font-size: 18px;}
+		footer {color: red; font-family: 'Source Code Pro', monospace; font-size: 18px; margin-top: 100px;}
 		.aligncenter {text-align: center;}
 		.footer_class {text-align: center; color: red;}
 		
@@ -48,6 +48,12 @@
 			#gif2 {
 				height: 50px;
 			}
+			#gif3 {
+				height: 42px;
+			}
+			#lanparty_timer {
+				width: 100%;
+			}
 			ul {
 				text-align: left;
 			}
@@ -75,6 +81,8 @@
 				margin-top: 50px;
 			}
 		}
+		
+		#demo {margin-top: 5px;font-size: 25px;}
 		
 	</style>
 	
@@ -105,6 +113,12 @@
 		</header>
 		<main class="aligncenter";>
 		
+			<img id="gif3"; style="margin-top: 25px; margin-bottom: -30px;"; height="80px"; src="LANParty_Files/Logos/LANParty_2021.gif"; alt="LANParty 2021 GIF!">
+			<div id="lanparty_timer"; style="margin: 0 auto;";>
+				<script src="https://cdn.logwork.com/widget/countdown.js"></script>
+				<a href="https://logwork.com/countdown-usd" class="countdown-timer" data-style="flip2" data-timezone="Europe/Rome" data-language="it" data-date="2021-02-22 08:00">#</a>
+			</div>
+		
 			<img id="gif1"; style="margin-top: 25px;"; height="80px"; src="LANParty_Files/Logos/Che Cos'è.gif"; alt="Che Cos'è GIF!">
 			<p>Un LAN Party è un incontro dedicato ai videogiochi in cui è possibile giocare in modalità multiplayer tramite una rete LAN (Local Area Network), tramite cavo ethernet oppure in wirless, nel quale i giocatori, riuniti ognuno con il proprio computer, possono misurare la propria abilità.</p>
 			<img id="gif2"; style="margin-top: 35px;"; height="80px"; src="LANParty_Files/Logos/Chi Siamo.gif"; alt="Chi Siamo GIF!">
@@ -115,10 +129,11 @@
 				
 			
 			</div>
-		
+			
 		</main>
 		<footer class="aligncenter">
-			<p>Made With <img src="LANParty_Files/Other_Images/pixel-heart.png"; height="25px"; style="margin-bottom: -6px; margin-right: -5px; margin-left: -5px"> By <a href="https://twitter.com/MichyTheWinner"; style="color: white"; target="_blank">Genio2003<a> | Hosted By <a href="https://github.com/Genio2003/lanparty.github.io"; style="color: white">Github<a></p>
+			<p>Made With <img src="LANParty_Files/Other_Images/pixel-heart.png"; height="25px"; style="margin-bottom: -6px; margin-right: -5px; margin-left: -5px"> By <a href="https://twitter.com/MichyTheWinner"; style="color: white"; target="_blank">Genio2003</a> | Hosted By <a href="https://github.com/Genio2003/lanparty.github.io"; style="color: white">Github</a></p>
+			<p style="margin-top: -10px; font-size: 12px"> Web Version: <a href="https://github.com/Genio2003/lanparty.github.io/blob/master/README.md"; style="color: red">3.1</a></p>
 		</footer>
 	
 	</body>
